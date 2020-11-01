@@ -5,7 +5,7 @@ public interface Corrida {
 
     public abstract void correr();
     public abstract void vitoria();
-    public abstract void posicao();
+    public abstract void posicao(int vodka);
     public abstract String statusPiloto();
 
 

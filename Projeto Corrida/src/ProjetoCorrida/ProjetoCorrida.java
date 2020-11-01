@@ -10,6 +10,8 @@ public class ProjetoCorrida {
         p[0] = new Piloto("Adilson", "Brasileiro", 26, 10, 5, c[0]);
 
         System.out.println(p[0].statusPiloto());
+        p[0].correr();
+        System.out.println(p[0].statusPiloto());
 
     }
 }

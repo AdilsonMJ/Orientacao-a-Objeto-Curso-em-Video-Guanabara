@@ -13,27 +13,27 @@ public class Carro {
         this.setPotencia(potencia);
     }
 
-    public String getFabricante() {
+    protected String getFabricante() {
         return fabricante;
     }
 
-    public void setFabricante(String fabricante) {
+    private void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
 
-    public String getModelo() {
+    protected String getModelo() {
         return modelo;
     }
 
-    public void setModelo(String modelo) {
+    protected void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    public float getPotencia() {
+    protected float getPotencia() {
         return potencia;
     }
 
-    public void setPotencia(float potencia) {
+    private void setPotencia(float potencia) {
         this.potencia = potencia;
     }
 }
